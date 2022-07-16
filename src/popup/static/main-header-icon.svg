@@ -1,0 +1,54 @@
+<svg id="组件_34_1" data-name="组件 34 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #062deb;
+      }
+
+      .cls-2, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #1015eb;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #b5bbf9;
+      }
+
+      .cls-5 {
+        fill: #0b23eb;
+      }
+
+      .cls-6 {
+        fill: #0b56ff;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="椭圆_9336" data-name="椭圆 9336" class="cls-1" cx="14" cy="14" r="14" transform="translate(315.457 15.457)"/>
+    </clipPath>
+  </defs>
+  <g id="椭圆_8809" data-name="椭圆 8809" class="cls-2">
+    <circle class="cls-7" cx="17" cy="17" r="17"/>
+    <circle class="cls-8" cx="17" cy="17" r="16.25"/>
+  </g>
+  <g id="蒙版组_2528" data-name="蒙版组 2528" class="cls-3" transform="translate(-312.457 -12.457)">
+    <g id="组_27785" data-name="组 27785" transform="translate(315 15)">
+      <path id="路径_97164" data-name="路径 97164" class="cls-4" d="M14,0A14,14,0,1,1,0,14,14,14,0,0,1,14,0Z" transform="translate(0.457 0.457)"/>
+      <g id="组_27784" data-name="组 27784" transform="translate(5 8.782)">
+        <path id="交叉_1735" data-name="交叉 1735" class="cls-5" d="M4.933,20.12,0,11.349,6.384,0H19.152l5.069,9.012A15.15,15.15,0,0,1,4.933,20.12Z" transform="translate(0 0)"/>
+        <path id="交叉_1736" data-name="交叉 1736" class="cls-6" d="M.02,11.385,0,11.349,6.384,0H19.108l.02.036L12.744,11.385Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

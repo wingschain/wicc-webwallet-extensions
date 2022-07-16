@@ -1,0 +1,91 @@
+/* -- common -- */
+.vodal,
+.vodal-mask {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.vodal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vodal-mask {
+  position: absolute;
+  background: rgba(0, 0, 0, .5);
+}
+
+.vodal-dialog {
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // margin: auto;
+  position: relative;
+  height: auto !important;
+  z-index: 101;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.vodal-close {
+  position: absolute;
+  cursor: pointer;
+  top: 13px;
+  right: 13px;
+  width: 18px;
+  height: 18px;
+  z-index: 9999;
+}
+
+.vodal-close:after {
+  content: ' ';
+  background: url('../static/close-icon.svg') center center no-repeat;
+  background-size: 18px 18px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+/* -- fade -- */
+@-webkit-keyframes vodal-fade-enter {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes vodal-fade-enter {
+  from {
+    opacity: 0;
+  }
+}
+
+.vodal-fade-enter-active {
+  -webkit-animation: vodal-fade-enter both ease-in;
+  animation: vodal-fade-enter both ease-in;
+}
+
+@-webkit-keyframes vodal-fade-leave {
+  to {
+    opacity: 0
+  }
+}
+
+@keyframes vodal-fade-leave {
+  to {
+    opacity: 0
+  }
+}
+
+.vodal-fade-leave-active {
+  -webkit-animation: vodal-fade-leave both ease-out;
+  animation: vodal-fade-leave both ease-out;
+}
