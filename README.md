@@ -6,13 +6,6 @@ It allows users to manage their account info, add `WRC20` token, check balance, 
 
 More importantly, WingsMax provides the WiccWallet interface to developers. Developers can integrate `WiccWallet` when developing DAPP so that they can sign and broadcast WingsChain transactions. In turn enabling the use of DAPP from within the browser.
 
-## Downloads
-
-**Chrome** –    
-**Firefox** – 
-
-## `WiccWallet`
-
 
 ## Build
 
